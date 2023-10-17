@@ -6,7 +6,7 @@
   "type": "module",
 
   "scripts": {
-    "start": "nodemon src/index.mjs"
+    "start": "node src/index.mjs"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
