@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffebcd; /* Blanched Almond */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Helvetica', Arial, sans-serif;
+  background-color: #ffebcd; /* Blanched Almond */
+}
+
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #ffebcd; /* Blanched Almond */
+}
+
+.auth-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #2a383a; /* Dark Blue-Gray */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px;
+  width: 300px;
+  height: 500px;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.create-movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff; /* White */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 500px;
+}
+
+.create-movie form {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: 10px solid #8b4513; /* Saddle Brown */
+  background: #8b4513 ;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-name{
+  color: white;
+  justify-content: center;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  max-width: 400px;
+  font-size: 18px;
+  color: black;
+  justify-content:center ;
+}
+
+.skills-description{
+  max-width: 400px;
+  font-size: 15px;
+  color: white;
+
+}
+
+.nav-bar {
+  margin: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #2a383a; 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.logout-button {
+  background-color: #8b4513; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.logout-button:hover {
+  background-color: #cd661d; /* Darker Orange on Hover */
+}
+
+.favorite-button {
+  background-color: #2a383a; /* Saddle Brown */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.favorite-button.favorited {
+  background-color: #20b2aa; 
+}
+
+.favorite-button:hover {
+  background-color: #20b2aa; 
+}
+
+.sort-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.sort-button {
+  background-color: #8b4513; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sort-button.active {
+  background-color: #a0522d; /* Active button color */
+}
+
+.sort-button:hover {
+  background-color: #cd661d; /* Darker Brown on Hover */
+}
+
+.auth-button {
+  background-color: #20b2aa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-button:hover {
+  background-color: #48d1cc; /* Darker Teal on Hover */
+}
+
+.logo {
+  max-height: 180px; 
+  width: auto;
+  margin-right: 0px;
+}
+/* app.css */
+.create-page {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-page h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.create-button {
+  background-color: #20b2aa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
