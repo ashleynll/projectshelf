@@ -28,4 +28,4 @@ mongoose.connect(
   }
 );
 
-app.listen(3008, () => console.log("Server is up and running!"));
+app.listen(3001, () => console.log("Server is up and running!"));
